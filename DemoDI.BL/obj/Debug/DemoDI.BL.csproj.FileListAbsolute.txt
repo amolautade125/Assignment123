@@ -1,0 +1,9 @@
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\obj\Debug\DemoDI.BL.dll
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\DemoDI.BL.dll
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\DemoDI.BL.pdb
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\DemoDI.Model.dll
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\Newtonsoft.Json.dll
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\DemoDI.Model.pdb
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\Newtonsoft.Json.xml
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\obj\Debug\DemoDI.BL.csprojResolveAssemblyReference.cache
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\obj\Debug\DemoDI.BL.pdb

@@ -1,0 +1,87 @@
+﻿@model DemoDI.Model.Contact
+
+@using (Ajax.BeginForm("SaveContact", "Contact", new AjaxOptions { OnSuccess = "onSuccess", OnFailure = "OnFailure" }))
+{
+    <div class="form-group">
+        @Html.LabelFor(p => p.FirstName)
+        @Html.Label("*", new { @class = "text-danger" })
+        @Html.TextBoxFor(p => p.FirstName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.FirstName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.LastName)
+        @Html.Label("*", new { @class = "text-danger" })
+        @Html.TextBoxFor(p => p.LastName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.LastName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.Email)
+        @Html.Label("*", new { @class = "text-danger" })
+        @Html.TextBoxFor(p => p.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Email, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.PhoneNumber)
+        @Html.Label("*", new { @class = "text-danger" })
+        @Html.TextBoxFor(p => p.PhoneNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.PhoneNumber, "", new { @class = "text-danger" })
+
+        @Html.HiddenFor(p => p.RecordId)
+    </div>
+
+    <button type="submit" class="btn btn-default btnAddEditCustomer">Submit</button>
+    <button type="button" class="btn btn-default btnExit">Cancel</button>
+}
+
+<script src="~/scripts/jquery.validate.min.js"></script>
+<script src="~/scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-ajax-unobtrusive@3.2.4/jquery.unobtrusive-ajax.min.js"></script>
+
+<script type="text/javascript">
+
+    // Close Modal Popup
+    $('.btnExit').click(function () {
+        $('#myModal').find('.modal-body').html('');
+        $('#myModal').modal('hide');
+    });
+
+    // OnSuccess Callback
+    function onSuccess(data) {
+        
+        $('#myModal').modal('hide');
+        if ($('#tblContacts tbody').find('tr[id=' + data.RecordId + ']').length == 1) {
+            // Update
+            $('#tblContacts tbody').find('tr[id=' + data.RecordId + '] td:nth-child(1)').text(data.FirstName);
+            $('#tblContacts tbody').find('tr[id=' + data.RecordId + '] td:nth-child(2)').text(data.LastName);
+            $('#tblContacts tbody').find('tr[id=' + data.RecordId + '] td:nth-child(3)').text(data.Email);
+            $('#tblContacts tbody').find('tr[id=' + data.RecordId + '] td:nth-child(4)').text(data.PhoneNumber);
+        }
+        else {
+            // Add
+            if (parseInt(data.RecordId) > 0)
+            {
+                var strAppend = '<tr id='+data.RecordId+'>' +
+                            '<td>'+data.FirstName+'</td>'+
+                            '<td>'+data.LastName+'</td>'+
+                            '<td>'+data.Email+'</td>'+
+                            '<td>'+data.PhoneNumber+'</td>'+
+                            '<td><input type="button" class="btn btn-primary btnEdit" value="Edit"></td>'+
+                            '<td><input type="button" class="btn btn-danger btnDelete" value="Delete"></td></tr>';
+
+                $('#tblContacts tbody').append(strAppend);
+
+                $('.btnEdit').unbind('click').bind('click', function () {
+                    var id = $(this).parents('tr').prop('id');
+                    ShowAddEditPopup(id);
+                });
+            }
+        }
+        $('#myModal').find('.modal-body').html('');
+    }
+
+    // OnFailure callback
+    function OnFailure() {
+        alert("Something went wrong.");
+    }
+
+</script>

@@ -1,0 +1,5 @@
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.Model\obj\Debug\DemoDI.Model.dll
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.Model\bin\Debug\DemoDI.Model.dll
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.Model\bin\Debug\DemoDI.Model.pdb
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.Model\obj\Debug\DemoDI.Model.pdb
+D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.Model\obj\Debug\DemoDI.Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,82 @@
+﻿@using DemoDI.Model;
+@model IEnumerable<Contact>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    
+</head>
+<body>
+    <br /><br /><br /><br />
+    <div class="container">
+        <div class="pull-left">
+            <input type="button" value="Add New" class="btn btn-success btnAddNew" />
+        </div>
+        <br /><br />
+        <div class="table-responsive">
+            <table id="tblContacts" class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr id="@item.RecordId">
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.Email</td>
+                            <td>@item.PhoneNumber</td>
+                            <td>
+                                <input type="button" class="btn btn-primary btnEdit" value="Edit" />
+                            </td>
+                            <td>
+                                <input type="button" class="btn btn-danger btnDelete" value="Delete" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                @*<div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>*@
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="~/scripts/jquery-1.9.0.min.js"></script>
+<script src="~/scripts/bootstrap.min.js"></script>
+<script src="~/scripts/Custom/custom.js"></script>
