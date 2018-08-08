@@ -54,8 +54,6 @@ namespace DemoWebAPI.Controllers
             return Ok(objContact);
         }
 
-
-
         public IHttpActionResult AddOrUpdateContact(Contact objContact)
         {
             using (EvolentDBEntities entity = new EvolentDBEntities())

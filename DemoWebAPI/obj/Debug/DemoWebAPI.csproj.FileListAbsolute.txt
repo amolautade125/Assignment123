@@ -30,3 +30,35 @@ D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoWebAPI\bin\System.Web.H
 D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoWebAPI\bin\System.Web.Http.WebHost.xml
 D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoWebAPI\obj\Debug\DemoWebAPI.csprojResolveAssemblyReference.cache
 D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoWebAPI\obj\Debug\DemoWebAPI.pdb
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\csc.exe
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\vbc.exe
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\VBCSCompiler.exe
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\DemoWebAPI.dll.config
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\DemoWebAPI.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\DemoWebAPI.pdb
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\DemoDI.Model.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\EntityFramework.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\Newtonsoft.Json.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\System.Net.Http.Formatting.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\System.Web.Http.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\System.Web.Http.WebHost.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\DemoDI.Model.pdb
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\EntityFramework.xml
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\Newtonsoft.Json.xml
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\System.Net.Http.Formatting.xml
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\System.Web.Http.xml
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\bin\System.Web.Http.WebHost.xml
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\obj\Debug\DemoWebAPI.csprojResolveAssemblyReference.cache
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\obj\Debug\DemoWebAPI.dll
+E:\MVC\ContactMgmt\Assignment123\DemoWebAPI\obj\Debug\DemoWebAPI.pdb

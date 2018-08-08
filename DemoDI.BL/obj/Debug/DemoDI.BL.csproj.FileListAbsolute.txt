@@ -7,3 +7,12 @@ D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\DemoDI.
 D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\bin\Debug\Newtonsoft.Json.xml
 D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\obj\Debug\DemoDI.BL.csprojResolveAssemblyReference.cache
 D:\Amol\PracticePrograms\Dependency Injection\DemoDI\DemoDI.BL\obj\Debug\DemoDI.BL.pdb
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\bin\Debug\DemoDI.BL.dll
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\bin\Debug\DemoDI.BL.pdb
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\bin\Debug\DemoDI.Model.dll
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\bin\Debug\Newtonsoft.Json.dll
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\bin\Debug\DemoDI.Model.pdb
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\bin\Debug\Newtonsoft.Json.xml
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\obj\Debug\DemoDI.BL.csprojResolveAssemblyReference.cache
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\obj\Debug\DemoDI.BL.dll
+E:\MVC\ContactMgmt\Assignment123\DemoDI.BL\obj\Debug\DemoDI.BL.pdb

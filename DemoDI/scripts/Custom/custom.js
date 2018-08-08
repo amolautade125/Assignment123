@@ -1,4 +1,5 @@
 ﻿$(function () {
+
     $('.btnAddNew').unbind('click').bind('click', function () {
         $.ajax({
             url: 'http://localhost:49460/Contact/addContact',
@@ -17,14 +18,34 @@
         });
     });
 
-    //$('.btnEdit').click(function () {
     $('.btnEdit').unbind('click').bind('click', function () {
         
         var id = $(this).parents('tr').prop('id');
         ShowAddEditPopup(id);
         
     });
+
+    $('.btnDelete').unbind('click').bind('click', function () {
+
+        if (confirm("Are you sure you want to delete?"))
+        {
+            var id = $(this).parents('tr').prop('id');
+            deleteContactById(id);
+        }
+    });
 });
+
+function deleteContactById(id)
+{
+    if (parseInt(id) > 0)
+    {
+
+    }
+    else
+    {
+        alert("Invalid Contact id.");
+    }
+}
 
 function ShowAddEditPopup(id)
 {
